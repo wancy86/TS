@@ -18,7 +18,8 @@
         "outFile": "./app.js"
     },
     "include": [
-        "./app.ts"
+        "./app.ts",
+        // "./app01.ts",
     ],
     "exclude": [ //不包括的文件  
         "node_module"

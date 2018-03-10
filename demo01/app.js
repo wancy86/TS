@@ -42,36 +42,33 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	function greeter(person) {
-	    return "Hello, " + person;
-	}
-	var user = "Mark Xiao";
-	document.body.innerHTML = greeter(user);
-	var age = 30;
-	console.log('age', age);
-	function test(age) {
-	    return 'your age is ' + age;
-	}
-	console.log('xxx: ', test(14));
-	function test2(person) {
-	    return person.age;
-	}
-	var user2 = { firstName: 'Mark', lastName: 'Xiao', age: 25 };
-	console.log('xxx: ', test2(user2));
-	var Student = /** @class */ (function () {
-	    function Student(firstName, lastName, age) {
-	        this.firstName = firstName;
-	        this.lastName = lastName;
-	        this.age = age;
-	        // code...
-	        this.fullName = firstName + ' ' + lastName;
-	    }
-	    return Student;
-	}());
-	var user3 = new Student('mark', 'Xiao3', 21);
-	console.log('xxx: ', test2(user3));
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_LOCAL_MODULE_0__;var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports], __WEBPACK_LOCAL_MODULE_0__ = (function (require, exports) {
+	    "use strict";
+	    exports.__esModule = true;
+	    exports.name145 = 'mark';
+	    var Chichen = /** @class */ (function () {
+	        function Chichen(name) {
+	            this.name = name;
+	        }
+	        return Chichen;
+	    }());
+	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)));
+	// export {name145};
+	// export {
+	// 	name145,
+	// 	StringValidator2,
+	// 	Chichen
+	// };
+	// function greeter(person) {
+	// 	return "Hello, " + person;
+	// }
+	!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __WEBPACK_LOCAL_MODULE_0__], __WEBPACK_AMD_DEFINE_RESULT__ = function (require, exports, app01_1) {
+	    "use strict";
+	    exports.__esModule = true;
+	    console.log('name145: ', app01_1.name145);
+	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 
 /***/ })
