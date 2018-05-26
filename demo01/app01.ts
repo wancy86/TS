@@ -1,19 +1,17 @@
-export const name145: string = 'mark';
+let name145: string = 'mark';
 
 interface StringValidator2 {
-	isAcceptable(s: string): boolean;
+    isAcceptable(s: string): boolean;
 }
 
 class Chichen {
-	name: string;
-	constructor(name) {
-		this.name = name;
-	}
+    name: string;
+    constructor(name: string) {
+        this.name = name;
+    }
 }
 
-// export {name145};
-// export {
-// 	name145,
-// 	StringValidator2,
-// 	Chichen
-// };
+export {
+    name145,
+    Chichen
+};
